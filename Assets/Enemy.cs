@@ -31,4 +31,4 @@ public class Enemy : MonoBehaviour {
 		target = Waypoints.points[waypointIndex];
 	}
 
-}
+} 
