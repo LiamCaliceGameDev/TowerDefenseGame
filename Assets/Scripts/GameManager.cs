@@ -3,7 +3,14 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
-	private bool gameEnded = false; 
+	public static bool gameEnded;
+
+	public GameObject gameOverUI;
+
+
+	void Start () {
+		gameEnded = false;
+	}
 
 	void Update () {
 		if (gameEnded) {
@@ -17,7 +24,7 @@ public class GameManager : MonoBehaviour {
 
 	void EndGame () {
 		gameEnded = true;
-		Debug.Log ("GAME OVER!");
+		gameOverUI.SetActive (true);
 	}
 
 }
