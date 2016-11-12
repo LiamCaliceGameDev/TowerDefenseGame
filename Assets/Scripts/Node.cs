@@ -29,12 +29,13 @@ public class Node : MonoBehaviour {
 		if (EventSystem.current.IsPointerOverGameObject ()) {
 			return;
 		}
-		if (!buildManager.CanBuild) {
+
+		if (turret != null) {
+			buildManager.SelectNode (this);
 			return;
 		}
 
-		if (turret != null) {
-			Debug.Log ("Can't Build There! - TODO: Display On Screen.");
+		if (!buildManager.CanBuild) {
 			return;
 		}
 
