@@ -89,7 +89,7 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
-'Assets/PauseMenu.cs'
+'Assets/SceneFader.cs'
 'Assets/Scripts/BuildManager.cs'
 'Assets/Scripts/Bullet.cs'
 'Assets/Scripts/CameraController.cs'
@@ -98,9 +98,11 @@
 'Assets/Scripts/GameManager.cs'
 'Assets/Scripts/GameOver.cs'
 'Assets/Scripts/LivesUI.cs'
+'Assets/Scripts/MainMenu.cs'
 'Assets/Scripts/MoneyUI.cs'
 'Assets/Scripts/Node.cs'
 'Assets/Scripts/NodeUI.cs'
+'Assets/Scripts/PauseMenu.cs'
 'Assets/Scripts/PlayerStats.cs'
 'Assets/Scripts/Shop.cs'
 'Assets/Scripts/Turret.cs'
